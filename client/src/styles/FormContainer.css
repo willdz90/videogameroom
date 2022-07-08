@@ -1,0 +1,124 @@
+.formContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+option{
+    text-transform: capitalize;
+}
+
+    form>select{
+        margin-left: 4vw;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+.generalContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-between;
+
+}
+
+.showForm{
+    border: 2px solid whitesmoke;
+    border-radius: 25px;
+    margin: 8vh 10px;
+    width: 40vw;
+    height: fit-content;
+    box-shadow: -0.7rem 0.7rem rgb(2, 38, 139), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+    -0.6rem 0.6rem rgb(2, 73, 139), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+    -0.5rem 0.5rem rgb(2, 112, 139), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+    -0.4rem 0.4rem rgb(2, 139, 54), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+    -0.3rem 0.3rem rgb(2, 100, 139), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+    -0.2rem 0.2rem rgb(2, 100, 139), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0);
+}
+
+.showInfoForm{
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin: 8vh 10px;
+    width: 40vw;
+    height: fit-content;
+    border-radius: 25px;
+    box-shadow: -0.7rem 0.7rem rgb(2, 38, 139), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+    -0.6rem 0.6rem rgb(2, 73, 139), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+    -0.5rem 0.5rem rgb(2, 112, 139), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+    -0.4rem 0.4rem rgb(2, 139, 54), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+    -0.3rem 0.3rem rgb(2, 100, 139), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+    -0.2rem 0.2rem rgb(2, 100, 139), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0);
+}
+
+    .showInfoForm>div{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 1vw;
+    }
+        .pInfoForm{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: 1vw;
+            font-size: 11pt;
+        }
+
+
+    form>input{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 8px;
+        width: 30vw;
+        text-align: center;
+    }
+
+.genPlat{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+    .genPlat>select{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        width: 18vw;
+    }
+
+    form>textArea{
+        margin: 8px;
+        width: 30vw;
+        height: 10vh;
+        scroll-behavior: auto;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+.error{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+
+.imgForm{
+    width: 25vw;
+    border: 5px outset whitesmoke;
+}
+
+.imgFormContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.deleteGenre{
+    background: none;
+    color: whitesmoke;
+    
+}

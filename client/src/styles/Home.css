@@ -1,0 +1,28 @@
+.loader{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.loading{
+    width: 100vw;
+    height: 100vh;
+}
+
+.contentContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fullContainer{
+    background-image: url('../assets/backgroundHome.jpg');
+    background-size: contain;
+}
+
+.searchBar{
+    margin: 5px;
+}

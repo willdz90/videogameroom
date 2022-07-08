@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento:400');
+
+.bannerContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url('../assets/backgroundBanner.jpg');
+    background-size: 35vw;
+    height: 25vh;
+}
+
+.border{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border: 0.2rem solid #fff;
+    margin: 15px 20px;
+    width: 91vw;
+    height: 18vh;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #6d13fe,
+    0 0 0.8rem #3e13fe,
+    0 0 2.8rem #1381fe,
+    inset 0 0 1.3rem #13a0fe;
+    border-radius: 2rem;
+    animation: flicker 2.5s infinite alternate;  
+}
+
+.close{
+    color: white;
+    margin-right: 3vw;
+}
+
+.logo1, .logo2{
+    width: 20vw;
+}
+
+.logoContainer{
+    margin-right: 22vw;
+}
+
+.btnOff{
+    border: 0.2rem solid #fff;
+    width: 3vw;
+    height: 6.5vh;
+    border-radius: 50px;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #6d13fe,
+    0 0 0.8rem #3e13fe,
+    0 0 2.8rem #1381fe,
+    inset 0 0 1.3rem #13a0fe;
+    animation: flicker 0.5s infinite alternate;  
+    background-color: white;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1vw;
+    margin-left: 0.4vw;
+}
+
+.rayita1{
+    border: 0.2rem solid #fff;
+    width: 0.5vw;
+    height: 3.5vh;
+    margin-left: 1.05vw;
+    margin-top: 0.9vh;
+    border-radius: 50px;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #6d13fe,
+    0 0 0.8rem #3e13fe,
+    0 0 2.8rem #1381fe,
+    inset 0 0 1.3rem #13a0fe;
+    animation: flicker 0.5s infinite alternate;  
+}
+
+.neonText {
+    color: #fff;
+    margin: 0;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #1336fe,
+      0 0 82px #133efe,
+      0 0 92px #13a8fe,
+      0 0 102px #13cffe,
+      0 0 151px #1713fe;
+  }
+    
+  body {
+    font-size: 18px;
+    font-family: "Sacramento", sans-serif;
+    background-color: #010a01;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+  }  
+  
+  h1, h2 {
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+    
+  h1 {
+    font-size: 8.2rem;
+    animation: flicker 1.5s infinite alternate;  
+
+  }
+  
+  @keyframes pulsate {
+      
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 42px #1336fe,
+        0 0 82px #133efe,
+        0 0 92px #13a8fe,
+        0 0 102px #13cffe,
+        0 0 151px #1713fe;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #13f6fe,
+      0 0 45px #133efe,
+      0 0 55px #13cffe,
+      0 0 70px #1317fe,
+      0 0 80px #1381fe;
+  
+  }
+
+}
+
+a{
+    text-decoration: none;
+}
+
+@keyframes flicker {
+    
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px rgb(0, 174, 255),
+        0 0 80px rgb(4, 0, 255),
+        0 0 90px rgb(55, 0, 255),
+        0 0 100px rgb(174, 0, 255),
+        0 0 150px rgb(0, 140, 255);
+    
+    }
+    
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }

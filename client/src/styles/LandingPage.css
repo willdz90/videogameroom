@@ -1,0 +1,394 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700italic");
+
+.letters{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.landingContainer{
+    position: relative;
+    width: 65vw;
+    height: 70vh;
+    top: 12vh;
+    margin: 0 auto;
+    border: 16px outset rgb(189, 0, 0);
+    box-shadow: 0.7rem 0.7rem rgb(139, 2, 2), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+                0.6rem 0.6rem rgb(139, 2, 2), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+                0.5rem 0.5rem rgb(139, 2, 2), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+                0.4rem 0.4rem rgb(139, 2, 2), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+                0.3rem 0.3rem rgb(139, 2, 2), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0),
+                0.2rem 0.2rem rgb(139, 2, 2), 1.2rem 1.2rem 1.2rem rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.mockup{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: rgb(243,221,172);
+    background: -moz-linear-gradient(90deg, rgba(243,221,172,1) 0%, rgba(243,221,172,1) 50%, rgba(185,90,35,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(243,221,172,1) 0%, rgba(243,221,172,1) 50%, rgba(185,90,35,1) 100%);
+    background: linear-gradient(90deg, rgba(243,221,172,1) 0%, rgba(243,221,172,1) 50%, rgba(185,90,35,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f3ddac",endColorstr="#b95a23",GradientType=1);
+}
+
+.landingBtn{
+    cursor: pointer;
+    position: relative;
+    left: 75vw;
+    top: 25vh;
+    background: none;
+    border: none;
+    border-style: solid;
+    border-width: 2.5em 0 2.5em 5em;
+    border-color: transparent transparent transparent #000;
+}
+
+.gameWatch{
+    position: relative;
+    top: 7vh;
+    left: 3.7vw;
+    width: 8vw;
+    height: 16vh;
+    border: 1px solid;
+    background-color: rgb(175, 173, 173);
+    border-radius: 10px;
+    text-align: center;
+    font-size : 22pt;
+    font-family: "ITC Avant Garde Gothic", "Open Sans", Helvetica, Calibri, sans-serif;
+}
+
+.arrows{
+    position: relative;
+    top: 30vh;
+    left: 3.7vw
+}
+
+.buttons{
+    position: relative;
+    bottom: 12vh;
+    left: 50vw;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 8pt;
+    text-align: center;
+    align-items: center;
+}
+
+.buttons > button{
+    height: 18px;
+    width: 45px;
+    border-radius: 10px;
+    left: 5px;
+    border: 3px outset darkred;
+    box-shadow: 0.15rem  0.05rem rgb(139, 2, 2), 0.17rem  0.05rem rgb(0, 0, 0);
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.gameBtn:active{
+    background: gray;
+}
+.timeBtn:active{
+    background: gray;
+}
+.pauseBtn:active{
+    background: gray;
+}
+
+.buttonsAB{
+    position: relative;
+    left: 50vw;
+    top: 16vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 11vw;
+}
+
+.btnB1, .btnA1{
+    background: rgb(251,63,63);
+    background: rgb(254,0,0);
+    background: -moz-radial-gradient(circle, rgba(254,0,0,1) 0%, rgba(244,96,96,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(254,0,0,1) 0%, rgba(244,96,96,1) 100%);
+    background: radial-gradient(circle, rgba(254,0,0,1) 0%, rgba(244,96,96,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fe0000",endColorstr="#f46060",GradientType=1);
+    width: 4.5vw;
+    height: 10vh;
+    margin: 5px;
+    border-radius: 40px;
+    border: 7px outset darkred;
+    cursor: pointer;
+    box-shadow: 0.15rem  0.05rem rgb(139, 2, 2), 0.17rem  0.05rem rgb(0, 0, 0);
+}
+
+.btnB1:active , .btnA1:active{
+    background: darkred;
+}
+
+.btnA1:hover , .btnB1:hover{
+    background: darkred;
+}
+
+.buttonsAB > div{
+    text-align: center;
+}
+
+.btnB{
+    width: 4.5vw;
+}
+
+.btnA{
+    width: 4.5vw;
+}
+
+.mainArea{
+    text-align: center;
+    position: relative;
+    left: 24%;
+    width: 30vw;
+    height: 60vh;
+    bottom: 52vh;
+    border: 15px outset rgb(175, 159, 125);
+    background-color: rgb(243, 221, 172);
+    font-family: arial;  
+    font-size: 7pt;  
+    font-weight: bold;
+}
+
+.titleConsole{
+    font-family: arial;  
+    font-size: 12pt;  
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.nintendo{
+    position: relative;
+    top: 3.3vh;
+    font-family: arial;  
+    font-size: 10pt;  
+    font-weight: bold; 
+    border: 1px solid;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0 8px;
+    border-radius: 15px;
+}
+
+.showInfo{
+    position: relative;
+    border: 1px solid black;
+    height: 45vh;
+    top: 2vh;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+
+@keyframes twinkle2 {
+    0%{
+        width: 19vw;
+        height: 25vh;
+    }
+    100%{
+        width: 21vw;
+        height: 21vh;
+    }
+}
+
+
+#cruz-1a{
+    position: absolute;  
+    width: 4vw;  
+    height: 20vh;  
+    margin-left: 1.5vw;  
+    margin-top: 0vh;  
+    background-color: darkred;  
+    border-radius: 2px;
+    box-shadow: 0.15rem  0.05rem rgb(139, 2, 2), 0.17rem  0.05rem rgb(0, 0, 0);
+}
+#cruz-1b{
+    position: absolute;  
+    width: 3.8vw;  
+    height: 19.5vh;  
+    margin-left: 1.5vw;  
+    margin-top: 0vh;  
+    background-color: black;  
+    border-radius: 2px;
+}
+#cruz-2a{
+    position: absolute;  
+    width: 10vw;  
+    height: 7.7vh;  
+    margin-left: -1.5vw;  
+    margin-top: 6.7vh;  
+    background-color: darkred;
+    border-radius: 2px;                            
+    box-shadow: 0px 0px 5px #000;
+}
+#cruz-2b{
+    position: absolute;  
+    width: 9.8vw;  
+    height: 7.3vh;  
+    margin-left: -1.5vw;  
+    margin-top: 6.7vh;  
+    background-color: black;  
+    border-radius: 2px;
+}
+#cruz-brillo1{
+    position: absolute;  
+    width: 4vw;  
+    height: 0.8vh;  
+    margin-left: 1.5vw;  
+    margin-top: 0vh;  
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 3px;
+}
+#cruz-brillo2{
+    position: absolute;  
+    width: 3vw;  height: 0.8vh;  
+    margin-left: 2.5vw;  margin-top: 0;  background-color: rgba(255, 255, 255, 0.15);  border-radius: 3px;
+}
+#cruz-brillo3{
+    position: absolute;  
+    width: 2vw;  height: 0.8vh;  
+    margin-left: 3.5vw;  
+    margin-top: 0;  background-color: rgba(255, 255, 255, 0.15);  border-radius: 3px;
+}
+#arriba{
+    width: 0;  height: 3vh;  
+    border-bottom: 26px solid #3C4247;  
+    border-right: 17px solid rgba(39, 43, 46, 0);  
+    border-left: 17px solid rgba(0, 0, 0, 0);  
+    position: absolute;  
+    margin-top: -1vh;  
+    margin-left: 2.2vw;
+    cursor: pointer;
+}
+#arriba1{
+    width: 0;  
+    height: 0;  
+    border-bottom: 30px solid rgb(145, 144, 144);  
+    border-right: 20px solid rgba(39, 43, 46, 0);  
+    border-left: 20px solid rgba(0, 0, 0, 0);  
+    position: absolute;  
+    margin-top: 1.4vh;  
+    margin-left: 1.8vw;
+}
+#arriba:active{
+    width: 0;  height: 3vh;  
+    border-bottom: 26px solid #000000;  
+    border-right: 17px solid rgba(39, 43, 46, 0);  
+    border-left: 17px solid rgba(0, 0, 0, 0);  
+    position: absolute;  
+    margin-top: -1vh;  
+    margin-left: 2.2vw;
+    cursor: pointer;
+}
+
+#abajo{
+    width: 0;  height: 0;  
+    border-top: 26px solid #3C4247;  
+    border-right: 17px solid rgba(39, 43, 46, 0);  
+    border-left: 17px solid rgba(0, 0, 0, 0);  
+    position: absolute;  
+    margin-top: 88px;  
+    margin-left: 32px;
+    cursor: pointer;
+    
+}
+#abajo1{
+    width: 0px;  height: 0vh;  
+    border-top: 30px solid rgb(145, 144, 144);  
+    border-right: 20px solid rgba(39, 43, 46, 0);  
+    border-left: 20px solid rgba(0, 0, 0, 0); 
+    position: absolute;  
+    margin-top: 88px;  
+    margin-left: 1.9vw;
+}
+#abajo:active{
+    width: 0;  height: 0;  
+    border-top: 26px solid black;  
+    border-right: 17px solid rgba(39, 43, 46, 0);  
+    border-left: 17px solid rgba(0, 0, 0, 0);  
+    position: absolute;  
+    margin-top: 88px;  
+    margin-left: 32px;
+    cursor: pointer;
+    
+}
+
+#derecha{
+    width: 0;  height: 0;  
+    border-top: 17px solid rgba(0, 0, 0, 0);  
+    border-left: 26px solid #3C4247;  
+    border-bottom: 17px solid rgba(0, 0, 0, 0);  position: absolute;  
+    margin-top: 7.5vh;  
+    margin-left: 83px;
+    cursor: pointer;
+}
+#derecha1{
+    width: 0;  height: 0;  
+    border-top: 20px solid rgba(0, 0, 0, 0);  
+    border-left: 30px solid rgba(255, 255, 255, 0.6);    
+    border-bottom: 20px solid rgba(0, 0, 0, 0);  
+    position: absolute;  
+    margin-top: 7vh;  
+    margin-left: 5.75vw;
+}
+#derecha:active{
+    width: 0;  height: 0;  
+    border-top: 17px solid rgba(0, 0, 0, 0);  
+    border-left: 26px solid black;  
+    border-bottom: 17px solid rgba(0, 0, 0, 0);  position: absolute;  
+    margin-top: 7.5vh;  
+    margin-left: 83px;
+    cursor: pointer;
+}
+
+
+#izquierda{
+    width: 0;   height: 0;   
+    border-top: 17px solid rgba(0, 0, 0, 0);   
+    border-right: 26px solid #3C4247;   
+    border-bottom: 17px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    margin-top: 7.5vh;
+    margin-left: -0.7vw;
+    cursor: pointer;              
+}
+#izquierda1{
+    width: 0px;  height: 0vh;  
+    border-top: 20px solid rgba(0, 0, 0, 0);  
+    border-right: 30px solid rgba(255, 255, 255, 0.6);  
+    border-bottom: 20px solid rgba(0, 0, 0, 0);  
+    position: absolute;  
+    margin-top: 7vh;  margin-left: -1vw;      
+}
+#izquierda:active{
+    width: 0;   height: 0;   
+    border-top: 17px solid rgba(0, 0, 0, 0);   
+    border-right: 26px solid black;   
+    border-bottom: 17px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    margin-top: 7.5vh;
+    margin-left: -0.7vw;
+    cursor: pointer;              
+}
+
+#cruz-circulito{
+    position: absolute;  
+    width: 3vw;  
+    height: 6.5vh;  
+    margin-left: 2vw;  
+    margin-top: 7vh;  
+    background-color: #42484B;
+    border-radius: 25px;                                          
+    -moz-box-shadow: inset 1px 2px 4px #000;  
+    -webkit-box-shadow: inset 1px 2px 4px #000;  
+    box-shadow: inset 1px 2px 4px #000;
+}

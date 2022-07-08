@@ -1,0 +1,52 @@
+.imgGame{
+    width: 12vw;
+    height: auto;
+    margin: 0 auto;
+    transition: all ease 0.5s;
+}
+
+.gameContainer{
+    border: 6px double rgb(44, 1, 236);
+    border-radius: 2vw;
+    margin: 4vh auto;
+    height: 45vh;
+    width: 15vw;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    padding: 8px;
+    cursor: pointer;
+    background-color: rgba(245, 245, 245, 0.432);
+    transition: all ease 0.5s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.imgGame:hover{
+    width: 14vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.gameContainer:hover{
+    border: 6px double rgb(44, 1, 236);
+    border-radius: 2vw;
+    margin: 4vh auto;
+    height: 48vh;
+    width: 18vw;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    padding: 8px;
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.infoGame{
+    margin: 8px;
+    text-align: center;
+}
+
+.containerImg{
+    display: flex;
+
+}
